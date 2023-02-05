@@ -1,0 +1,33 @@
+{
+  "name": "pickmyline",
+  "version": "1.0.0",
+  "description": "A web app build using Open AI public apis to suggest pick up lines for your parter.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "dependencies": {
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.3.0",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visensv/pickmyline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visensv/pickmyline/issues"
+  },
+  "homepage": "https://github.com/visensv/pickmyline#readme"
+}
