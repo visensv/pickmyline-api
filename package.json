@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/visensv/pickmyline.git"
+      "url": "git+https://github.com/visensv/pickmyline-api"
   },
   "author": "",
   "license": "ISC",
