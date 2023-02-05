@@ -1,5 +1,5 @@
 const { Configuration, OpenAIApi } = require('openai');
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0
+//process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
